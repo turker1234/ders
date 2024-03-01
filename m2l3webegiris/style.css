@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #477e9459; /* Web sayfasının arka plan rengi */
+    color: #333333; /* Metin rengi */
+}
+
+h1 {
+    color: #00a800; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+
+
+div {
+    /* color: rgb(109, 64, 10); */
+    /* padding: 100px; */
+    padding-left: 100px;
+    margin:  300px;
+    border: #802121;
+    border-width: 5px;
+    border-style: ridge;
+    text-decoration-color: #373b61;
+    font-family: "Sofia", sans-serif;
+    font-size: 4.5em;
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h2:hover {
+    animation: color-change 3s infinite;
+}
+
+iframe {
+    border: #802121;
+    border-width: 5px;
+    border-style: ridge;
+    margin:150px;
+    padding:100px;
+}
+
+
+iframe#carkifelek {
+    background: #8f711d;
+    padding: 10px;
+}
+#havadurumu {
+    background: #00a800;
+}
+#website {
+    font-size: 20ch;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow:10px 10px 10px 10px #001aff;
+    padding-left: 400px;
+
+}
